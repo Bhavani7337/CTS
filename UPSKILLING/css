@@ -1,0 +1,69 @@
+This folder contains CSS3 practice exercises.
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Example 1</title>
+    <style>
+        h1 {
+            color: blue;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to CSS</h1>
+</body>
+</html>
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Example 2</title>
+    <style>
+        p {
+            color: green;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <p>This is a CSS practice page.</p>
+</body>
+</html>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Example 3</title>
+    <style>
+        .box {
+            width: 300px;
+            padding: 20px;
+            border: 2px solid black;
+            background-color: lightgray;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        CSS Box Model Example
+    </div>
+</body>
+</html>
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Example 4</title>
+    <style>
+        button {
+            background-color: blue;
+            color: white;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <button>Click Me</button>
+</body>
+</html>
