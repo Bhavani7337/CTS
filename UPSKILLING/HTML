@@ -1,1 +1,93 @@
 
+This folder contains HTML5 practice exercises.
+----------------------------------------------------------------------------------
+*Basic Web Page
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My First Web Page</title>
+</head>
+<body>
+    <h1>Welcome to HTML5</h1>
+    <p>This is my first HTML5 practice page.</p>
+</body>
+</html>
+
+----------------------------------------------------------------------------------
+*Student Profile Page
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Profile</title>
+</head>
+<body>
+    <h1>Thaliyakula Bhavani</h1>
+    <p>B.Tech 3rd Year Student</p>
+    <p>Skills: HTML, CSS, JavaScript, Python</p>
+</body>
+</html>
+-----------------------------------------------------------------------------------
+*Registration Form
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+</head>
+<body>
+    <h2>Student Registration</h2>
+    <form>
+        Name: <input type="text"><br><br>
+        Email: <input type="email"><br><br>
+        Password: <input type="password"><br><br>
+        Gender:
+        <input type="radio" name="gender"> Female
+        <input type="radio" name="gender"> Male
+        <br><br>
+        <button type="submit">Register</button>
+    </form>
+</body>
+</html>
+----------------------------------------------------------------------------------------
+*Table
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Marks</title>
+</head>
+<body>
+    <h2>Marks Table</h2>
+    <table border="1">
+        <tr>
+            <th>Subject</th>
+            <th>Marks</th>
+        </tr>
+        <tr>
+            <td>Maths</td>
+            <td>85</td>
+        </tr>
+        <tr>
+            <td>English</td>
+            <td>90</td>
+        </tr>
+    </table>
+</body>
+</html>
+-----------------------------------------------------------------------------------------------
+*Media Page
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Media Example</title>
+</head>
+<body>
+    <h2>HTML5 Media Elements</h2>
+    <audio controls>
+        <source src="song.mp3" type="audio/mpeg">
+    </audio>
+    <br><br>
+    <video width="300" controls>
+        <source src="video.mp4" type="video/mp4">
+    </video>
+</body>
+</html>
+------------------------------------------------------------------------------------------------
