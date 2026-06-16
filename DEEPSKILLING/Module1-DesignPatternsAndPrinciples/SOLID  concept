@@ -1,0 +1,25 @@
+SOLID PRINCIPLES:
+SOLID Principles are five object-oriented design principles used in Object-Oriented Programming (OOP) to write code that is clean, maintainable, reusable, and scalable.
+S---->single responsibility priciple(SRP)
+O---->open/closed principle(OSP)
+L---->Liskov subsitution principle(LSP)
+I---->interface segregation principle(ISP)
+D---->dependency inversion principle(DIP)
+
+
+now we have to see one by one:
+
+SRP:Each class should perform only specific task.if a class has multiple responsibilities,it becomes different to maintain,test,modify.
+     *only one responsibility and only one reason to change
+
+OCP:Make big componets from lots of smaller ones,using props and special characters like props.children
+      *the classes,modules,functions are opened for extension ,but closed for the modification 
+
+LSP:Objects of a superclass should be replaceable with objects of its subclasses without affecting the correctness of the program.
+      *If class B inherits from class A, then an object of B should be usable wherever an object of A is expected, without breaking the program.
+
+ISP:Clients should not be forced to depend on interfaces they do not use
+     *Interface Segregation Principle states that a class should not be forced to implement methods that it does not need.
+
+DIP:High-level modules should not depend on low-level modules. Both should depend on abstractions (interfaces).
+     *Dependency Inversion Principle states that high-level modules should depend on abstractions (interfaces), not on concrete classes.
