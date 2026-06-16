@@ -1,0 +1,28 @@
+CREATE DATABASE StudentDB;
+USE StudentDB;
+
+CREATE TABLE Students (
+    StudentID INT PRIMARY KEY,
+    Name VARCHAR(50),
+    Age INT,
+    Course VARCHAR(50)
+);
+-------------------------------------------------------------------------------------------------------------------------------
+INSERT INTO Students VALUES (1, 'Bhavani', 20, 'B.Tech');
+INSERT INTO Students VALUES (2, 'Ravi', 21, 'B.Tech');
+INSERT INTO Students VALUES (3, 'Priya', 20, 'BCA');
+---------------------------------------------------------------------------------------------------------------------------------
+SELECT * FROM Students;
+---------------------------------------------------------------------------------------------------------------------------------
+UPDATE Students
+SET Course = 'B.Tech CSE'
+WHERE StudentID = 1;
+
+DELETE FROM Students
+WHERE StudentID = 3;
+----------------------------------------------------------------------------------------------------------------------------------
+SELECT COUNT(*) AS TotalStudents FROM Students;
+
+SELECT MAX(Age) AS MaximumAge FROM Students;
+
+SELECT MIN(Age) AS MinimumAge FROM Students;
