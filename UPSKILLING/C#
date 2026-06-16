@@ -1,0 +1,61 @@
+#hello worls
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.WriteLine("Hello, Cognizant UpSkilling!");
+    }
+}
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#addition of 2 numbers
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        int a = 10, b = 20;
+        int sum = a + b;
+        Console.WriteLine("Sum = " + sum);
+    }
+}
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+#largest number
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        int a = 10, b = 25, c = 15;
+        int largest = a;
+
+        if (b > largest)
+            largest = b;
+        if (c > largest)
+            largest = c;
+
+        Console.WriteLine("Largest Number = " + largest);
+    }
+}
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+#factorial
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        int n = 5;
+        int fact = 1;
+
+        for (int i = 1; i <= n; i++)
+        {
+            fact *= i;
+        }
+
+        Console.WriteLine("Factorial = " + fact);
+    }
+}
